@@ -4,7 +4,7 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-red.svg)](https://streamlit.io/)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 
-CropCredit is a machine-learning application for assessing agricultural commodity risk and supporting micro-loan decisions for smallholder farmers. It combines a 90-day price forecast, spoilage-risk prediction, and dynamic loan-to-value (LTV) calculations in an interactive Streamlit dashboard.
+CropCredit is a machine-learning application for assessing agricultural commodity risk and supporting micro-loan decisions for smallholder farmers. It combines a 90-day price forecast, spoilage-risk probability estimation, collateral valuation, and reverse collateral calculation in an interactive dashboard.
 
 > This tool provides decision support and is not a substitute for professional lending, financial, or agricultural advice.
 
@@ -67,7 +67,7 @@ git clone https://github.com/erico19/Agri-Credit-Risk-Predictor-Micro-loans-.git
 cd Agri-Credit-Risk-Predictor-Micro-loans-
 
 python -m venv .venv
-source .venv/bin/bin/activate
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
@@ -156,7 +156,13 @@ The `Data files/` directory contains cleaned and raw commodity datasets, weather
 
 ## Responsible Use
 
-The risk thresholds, LTV ratios, and sanctioning rules are configurable policy choices embedded in the application. Before real-world use, validate them against local regulations, lending policies, and representative out-of-sample data. Model outputs should be monitored for bias and distribution drift.
+The risk thresholds, LTV ratios, and sanctioning rules are configurable policy choices embedded in the application. Before real-world use, validate them against local regulations, lending policies, and expert risk assessment.
+
+## Author
+
+**Eric Mafabi**
+
+Systems Engineer | Full-Stack Developer | Software Testing | Systems Analyst | UI/UX Designer | Experienced Tech Support Specialist | Open to new opportunities.
 
 ## License
 
