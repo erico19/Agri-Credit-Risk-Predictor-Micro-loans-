@@ -158,6 +158,11 @@ The `Data files/` directory contains cleaned and raw commodity datasets, weather
 
 The risk thresholds, LTV ratios, and sanctioning rules are configurable policy choices embedded in the application. Before real-world use, validate them against local regulations, lending policies, and representative out-of-sample data. Model outputs should be monitored for bias and distribution drift.
 
+
+Author
+Eric Mafabi
+Systems Engineer | Full-Stack Developer | Software Testing | Systems Analyst | UI/UX Designer | Experienced Tech Support Specialist | Open to new opportunities.
+
 ## License
 
 This project is licensed under the [GNU General Public License v3.0](LICENSE).
